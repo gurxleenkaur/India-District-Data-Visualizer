@@ -19,7 +19,6 @@ The **India District Data Visualizer** combines district boundary GeoJSON files 
 - 🔍 District Search & Exploration
 - 📋 Interactive Dashboard
 - 📉 Statistical Insights
-- 🎨 Interactive Charts
 - 💻 User-friendly Streamlit Interface
 
 ---
@@ -87,18 +86,6 @@ pip install -r requirements.txt
 ```bash
 streamlit run district.py
 ```
-
----
-
-## 📸 Screenshots
-
-Add screenshots of:
-
-- 🗺️ Interactive India Map
-- 📊 District Dashboard
-- 📈 Census Data Visualization
-- 🔍 District Analysis
-- 📉 Interactive Charts
 
 ---
 
