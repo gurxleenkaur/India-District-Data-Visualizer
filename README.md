@@ -1,25 +1,27 @@
-# 🗺️ India District Data Visualizer
+# 🗺️ India State & District Map Explorer
 
-An interactive **Streamlit** application that visualizes district-level census data across India using GeoJSON maps and interactive charts. The project enables users to explore geographical and demographic information through an intuitive web interface.
+An interactive **Streamlit** application that connects India's state and district maps. Selecting a state on the map automatically filters and displays its corresponding districts, enabling intuitive geographic exploration and visualization.
 
 ---
 
 ## 📌 Overview
 
-The **India District Data Visualizer** combines district boundary GeoJSON files with census datasets to create an interactive geographic dashboard. It helps users analyze district-wise statistics, compare regions, and gain valuable insights through dynamic visualizations.
+The **India State & District Map Explorer** provides an interactive way to navigate India's administrative boundaries. Users can select any state from the map, and the application dynamically updates the district map to display only the districts belonging to the selected state.
+
+The project combines **GeoJSON**, **census data**, and **interactive visualization** to create a seamless geographic exploration experience.
 
 ---
 
 ## ✨ Features
 
-- 🗺️ Interactive India District Map
-- 📊 District-wise Data Visualization
-- 📈 Census Data Analysis
-- 🌍 GeoJSON Map Integration
-- 🔍 District Search & Exploration
-- 📋 Interactive Dashboard
-- 📉 Statistical Insights
-- 💻 User-friendly Streamlit Interface
+- 🗺️ Interactive India State Map
+- 📍 Automatic District Filtering
+- 🔄 Linked State & District Maps
+- 📊 Geographic Data Visualization
+- 📋 Census Data Integration
+- 🎯 Dynamic Map Updates
+- ⚡ Fast Interactive Exploration
+- 💻 Streamlit Web Application
 
 ---
 
@@ -30,8 +32,8 @@ The **India District Data Visualizer** combines district boundary GeoJSON files 
 | Python | Programming Language |
 | Streamlit | Web Application Framework |
 | Pandas | Data Processing |
-| Plotly | Interactive Visualizations |
-| GeoJSON | Geographic Data |
+| Plotly | Interactive Maps |
+| GeoJSON | Geographic Boundaries |
 | NumPy | Numerical Computing |
 
 ---
@@ -39,7 +41,7 @@ The **India District Data Visualizer** combines district boundary GeoJSON files 
 ## 📂 Project Structure
 
 ```
-India-District-Data-Visualizer/
+India-State-District-Map-Explorer/
 │
 ├── district.py
 ├── census.csv
@@ -50,93 +52,61 @@ India-District-Data-Visualizer/
 
 ---
 
-## 📊 Dataset
+## 🚀 How It Works
 
-The project utilizes:
+1. Load India's state and district boundary data.
+2. Display an interactive state map.
+3. User selects a state.
+4. The application automatically filters the district dataset.
+5. The district map updates to show only districts belonging to the selected state.
+6. Users can explore geographic and administrative information interactively.
 
-- 🇮🇳 India District GeoJSON Boundary Data
-- 📋 District-wise Census Dataset
+---
 
-These datasets are combined to generate interactive geographic visualizations and district-level insights.
+## 📊 Key Features
+
+- Interactive State Selection
+- Automatic District Visualization
+- GeoJSON-based Mapping
+- Census Data Integration
+- Dynamic Filtering
+- Geographic Data Exploration
 
 ---
 
 ## 🚀 Installation
 
-### Clone the Repository
-
 ```bash
-git clone https://github.com/gurxleenkaur/India-District-Data-Visualizer.git
-```
+git clone https://github.com/gurxleenkaur/India-State-District-Map-Explorer.git
 
-### Navigate to the Project
+cd India-State-District-Map-Explorer
 
-```bash
-cd India-District-Data-Visualizer
-```
-
-### Install Dependencies
-
-```bash
 pip install -r requirements.txt
-```
 
-### Run the Application
-
-```bash
 streamlit run district.py
 ```
 
 ---
 
-## 🌟 Key Insights
+## 📸 Screenshots
 
-- District-wise Census Analysis
-- Geographic Data Visualization
-- Interactive Mapping
-- Regional Comparison
-- Demographic Insights
-- Statistical Analysis
+Add screenshots of:
+
+- 🗺️ India State Map
+- 📍 District Map
+- 🔄 Automatic District Selection
+- 📊 Interactive Dashboard
 
 ---
 
 ## 🎯 Future Improvements
 
-- State-wise Filtering
-- Population Growth Analysis
-- Literacy Rate Dashboard
-- Export Reports
-- AI-powered Insights
-- Time-series Visualization
-- Database Integration
+- Search by District
+- Population & Demographic Analytics
+- State-wise Statistics Dashboard
+- Export Selected Data
+- Multiple Map Themes
 - Mobile Responsive Design
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome!
-
-1. Fork the repository
-2. Create a feature branch
-
-```bash
-git checkout -b feature-name
-```
-
-3. Commit your changes
-
-```bash
-git commit -m "Add new feature"
-```
-
-4. Push to your branch
-
-```bash
-git push origin feature-name
-```
-
-5. Open a Pull Request.
 
 ---
 
@@ -151,7 +121,7 @@ git push origin feature-name
 
 ## ⭐ Support
 
-If you found this project useful, consider giving it a ⭐ on GitHub.
+If you found this project useful, please give it a ⭐ on GitHub.
 
 ---
 
