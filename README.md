@@ -88,17 +88,6 @@ streamlit run district.py
 
 ---
 
-## 📸 Screenshots
-
-Add screenshots of:
-
-- 🗺️ India State Map
-- 📍 District Map
-- 🔄 Automatic District Selection
-- 📊 Interactive Dashboard
-
----
-
 ## 🎯 Future Improvements
 
 - Search by District
